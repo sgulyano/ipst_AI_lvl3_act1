@@ -9,8 +9,8 @@ ENV HOME=/home/ipst
 WORKDIR $HOME
 USER ipst
 
-COPY --chown=jovyan:jovyan entrypoint.sh /home/ipst
-COPY --chown=jovyan:jovyan test_voila.ipynb /home/ipst
+COPY --chown=ipst:ipst entrypoint.sh /home/ipst
+COPY --chown=ipst:ipst test_voila.ipynb /home/ipst
 
 EXPOSE 8888
 
