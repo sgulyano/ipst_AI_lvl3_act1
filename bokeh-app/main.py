@@ -4,7 +4,6 @@ from bokeh.layouts import column, row
 from bokeh.models import HoverTool, ColumnDataSource, Slider, RadioButtonGroup, Div, Paragraph
 from bokeh.plotting import figure
 from bokeh.transform import factor_cmap, factor_mark
-from matplotlib import colors as mcolors
 from sklearn import tree
 from sklearn.datasets import load_breast_cancer
 
